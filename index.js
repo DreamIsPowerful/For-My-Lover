@@ -77,7 +77,7 @@
   };
 
   $ ('body').append (
-    '  <style id="style-tag"></style>\n<span id="echo"></span>\n<span id="heart"><i></i></span>\n<pre id="style-text"></pre>\n  <div style = \'position: fixed;left: 30px;bottom: 10px;\'>\n    <a id=\'skipAnimation\'>跳过动画</a>\n <a href=\'./index5.html\'>点我点我</a>\n   </div>'
+    '  <style id="style-tag"></style>\n<span id="echo"></span>\n<span id="heart"><i></i></span>\n<pre id="style-text"></pre>\n  <div style = \'position: fixed;left: 30px;bottom: 10px;\'>\n    <a id=\'skipAnimation\'>跳过动画</a>\n <a href=\'./index4.html\'>点我点我</a>\n   </div>'
   );
 
   commentTime = 60;
