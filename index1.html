@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=no">
@@ -10,7 +11,7 @@
     <!--嘿嘿，禁止缩放-->
     <link rel="apple-touch-icon-precomposed" href="./public/1.png">
     <meta name="format-detection" content="telephone=no">
-    <title>For 小花</title>
+    <title>For 玲玲</title>
     <style type="text/css">
         body {
             text-align: center;
@@ -21,9 +22,11 @@
             font-family: "微软雅黑";
             background: #f3961c;
         }
+
         div {
             text-align: left;
         }
+
         .tittle {
             width: 100%;
             background: #f3961c;
@@ -41,6 +44,7 @@
             color: #FFF;
             font-size: 35px;
         }
+
         .tishi {
             position: absolute;
             position: fixed !important;
@@ -49,6 +53,7 @@
             width: 100%;
             text-align: center;
         }
+
         .tishiContent {
             border: 1px solid #FFF;
             font-size: 18px;
@@ -66,11 +71,11 @@
             t = 2;
             $("#t-" + t).fadeIn();
             $(document).click(
-                    function () {
-                        /*如果用户点击了，就取消自动播放*/
-                        clearInterval(timer);
-                        $.change();
-                    }
+                function () {
+                    /*如果用户点击了，就取消自动播放*/
+                    clearInterval(timer);
+                    $.change();
+                }
             );
 
             /*切换*/
@@ -90,48 +95,48 @@
 </head>
 
 <body>
-<section style="text-align: center">
-    <div class="tittle" id="t-1" style="display: none;">
-        <table width="100%" border="0" height="100%">
-            <tbody>
-            <tr>
-                <td align="center"><span class="big"></span>正在初始化</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+    <section style="text-align: center">
+        <div class="tittle" id="t-1" style="display: none;">
+            <table width="100%" border="0" height="100%">
+                <tbody>
+                    <tr>
+                        <td align="center"><span class="big"></span>正在初始化</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <div class="tittle" id="t-2" style="display: block;">
-        <table width="100%" border="0" height="100%">
-            <tbody>
-            <tr>
-                <td align="center"><span class="big">小花</span>我爱你</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <div class="tittle" id="t-2" style="display: block;">
+            <table width="100%" border="0" height="100%">
+                <tbody>
+                    <tr>
+                        <td align="center"><span class="big">玲玲</span>我爱你</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <div class="tittle" id="t-3" >
-        <table width="100%" border="0" height="100%">
-            <tbody>
-            <tr>
-                <td align="center">Fall in love <span class="big">with you</span></td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="tittle" id="t-4" >
-        <table width="100%" border="0" height="100%">
-            <tbody>
-            <tr>
-                <td align="center">现在<span class="big">开始</span></td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <div class="tittle" id="t-3">
+            <table width="100%" border="0" height="100%">
+                <tbody>
+                    <tr>
+                        <td align="center">Fall in love <span class="big">with you</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tittle" id="t-4">
+            <table width="100%" border="0" height="100%">
+                <tbody>
+                    <tr>
+                        <td align="center">现在<span class="big">开始</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
 
-    <!-- <div class="tittle" id="t-5" >
+        <!-- <div class="tittle" id="t-5" >
         <table width="100%" border="0" height="100%">
             <tbody>
             <tr>
@@ -153,9 +158,10 @@
         </table>
     </div> -->
 
-</section>
-<div align="center" class="tishi">
-    <span class="tishiContent">点我点我</span>
-</div>
+    </section>
+    <div align="center" class="tishi">
+        <span class="tishiContent">点我点我</span>
+    </div>
 </body>
+
 </html>
